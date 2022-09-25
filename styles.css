@@ -368,15 +368,10 @@ section .button button:hover {
 }
 
 .skills {
-  background: url(./Images/begron3.png);
+  background-color: #1f0c6f;
   background-repeat: round;
   height: auto;
-}
-@media (max-width: 642px) {
-  .skills {
-    background: url(./Images/begronmobile.png);
-    background-repeat: repeat;
-  }
+  border-radius: 90px;
 }
 
 .skills .titles {
@@ -397,6 +392,10 @@ section .button button:hover {
   margin: 100px auto 200px auto;
   line-height: 2;
   width: 90%;
+}
+
+.contact-container {
+  color: white;
 }
 
 .skills .content .dedi {
@@ -522,7 +521,7 @@ section .button button:hover {
 }
 
 .contact {
-  background: #f0f8ff;
+  background: white;
 }
 .contact .content {
   margin: 0 auto;
